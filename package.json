@@ -1,6 +1,6 @@
 {
   "name": "three-cardboard-effect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "three.js Cardboard Effect in nodejs-compatible form",
   "main": "index.js",
   "scripts": {
