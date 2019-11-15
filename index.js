@@ -70,11 +70,8 @@ var CardboardEffect = function ( renderer ) {
 	//
 
 	this.setSize = function ( width, height ) {
-
-		_renderTarget.setSize( width, height );
-
-		renderer.setSize( width, height );
-
+		var pixelRatio = renderer.getPixelRatio();
+		_renderTarget.setSize( width * pixelRatio, height * pixelRatio );
 	};
 
 	this.render = function ( scene, camera ) {
